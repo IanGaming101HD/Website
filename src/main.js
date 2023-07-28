@@ -2,7 +2,7 @@ const express = require('express');
 const fs = require('fs');
 
 let app = express();
-let port = 443;
+let port = 80;
 
 app.enable('trust proxy');
 app.set('etag', false);
