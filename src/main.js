@@ -12,7 +12,6 @@ app.get('/', async (req, res) => {
   let file = fs.readFileSync(__dirname + '/public/home/index.html', {
     encoding: 'utf-8'
   })
-  // file = file.replace('word', 'word2')
   res.send(file);
 });
 
