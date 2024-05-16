@@ -26,21 +26,21 @@
     overflow: hidden;
 }
 
-.navigation_items {
+.navigation-items {
     font-family: Arial;
     font-size: 20px;
     margin-top: 1%;
     float: left;
 }
 
-.navigation_items a {
+.navigation-items a {
     display: block;
     color: gray;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-.navigation_items a:hover {
+.navigation-items a:hover {
     color: #ffffff;
 }
 
@@ -51,7 +51,7 @@
     color: #ffffff;
 }
 
-.short_desc {
+.short-desc {
     font-size: 20px;
     font-family: Arial;
     color: #808080;
@@ -153,19 +153,19 @@
     width: 45%;
 }
 
-.section_1 {
+.section-1 {
     height: 775px;
     overflow-y: none;
 }
 
-.section_2 {
+.section-2 {
     background-color: #1F2129;
     height: 100px;
     margin-bottom: 2%;
     overflow-y: none;
 }
 
-.section_3 {
+.section-3 {
     overflow-y: none;
 }
 

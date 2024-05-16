@@ -21,21 +21,21 @@ body {
     overflow: hidden;
 }
 
-.navigation_items {
+.navigation-items {
     font-family: Arial;
     font-size: 20px;
     margin-top: 1%;
     float: left;
 }
 
-.navigation_items a {
+.navigation-items a {
     display: block;
     color: gray;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-.navigation_items a:hover {
+.navigation-items a:hover {
     color: #808080;
 }
 
@@ -99,13 +99,13 @@ img {
     gap: 175px;
 }
 
-.footer_ul {
+.footer-ul {
     margin-left: 35%;
     width: 275px;
     list-style-type: none;
 }
 
-.footer_a {
+.footer-a {
     font-family: arial;
     font-size: 25px;
     color: #808080;
