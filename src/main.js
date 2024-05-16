@@ -12,10 +12,11 @@ app.get('/', async (req, res) => {
   let file = fs.readFileSync(__dirname + '/public/home/index.html', {
     encoding: 'utf-8'
   })
+  // file = file.replace('word', 'word2')
   res.send(file);
 });
 
-app.get('/:page', (req, res) => {
+app.get('/:page', (req, res, next) => {
   let page = req.params.page;
 
   let file;
@@ -24,7 +25,10 @@ app.get('/:page', (req, res) => {
     file = fs.readFileSync(__dirname + `/public/${page}/index.html`, {
       encoding: 'utf-8'
     })
-  } catch (err) {}
+  } catch (err) {
+    res.redirect(301, '/error')
+  }
+  // check this ^^
 
   res.send(file);
 });

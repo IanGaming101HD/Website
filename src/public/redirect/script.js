@@ -18,3 +18,9 @@ let countdown = setInterval(async () => {
     seconds.innerHTML = num
     num -= 1
 }, 1000)
+
+window.addEventListener('pageshow', function (event) {
+    if (event.persisted || ( typeof window.performance != 'undefined' && window.performance.navigation.type === 2 )) {
+    window.location.reload();
+    }
+});
